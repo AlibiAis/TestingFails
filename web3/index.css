@@ -1,0 +1,68 @@
+.header {
+    background-color: #0000;
+    padding: 0px;
+    text-align: center;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+         
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+         nav{
+             margin: auto;
+             width: 400px;
+             height: 50px;
+         }
+         .topnav{
+             background-color: white;
+             font-size: 14px;
+             margin-top: 40px;
+         }
+         .topnav a{
+             color: black;
+             text-align: center;
+             padding: 14px 16px;
+             font-size: 15px;
+         }
+         .topnav a:hover{
+             border-bottom: 2px solid black;
+         }
+         advantage__container{
+             display: flex;
+             justify-content: flex-end
+         }
+         .advantages{
+             justify-content: space-around;
+             align-items : flex-end;
+             text-align: right;
+             flex-wrap: wrap;
+         }
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #000;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+} 
+
+}
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.social img:hover{
+    background: #4949
+}
