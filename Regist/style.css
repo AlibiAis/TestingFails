@@ -1,0 +1,55 @@
+body
+{
+    background-color: #CCC;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container
+{
+    background: #fff;
+    width: 600px;
+    height: 500;
+    border-radius: 03px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CCC;
+    margin-top: 50px; 
+}
+.paragraph
+{
+    background: #2980b9;
+    color: skyblue;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 03px;
+    padding: 15px; 0px; 15px; 0px;
+    margin-bottom: 50px;
+}
+.ipt
+{
+ width: 235px;
+    height: 35px;
+    border-radius: 03px;
+    border: none;
+    border: 1px solid #CCC;
+    margin left: 25px;
+    padding-left: 05px;
+    border-left: 3px solid #27ae60;
+    margin-top: 10px;
+}
+.label
+{
+ margin-left: 25px;
+    font-family: cursive;
+    padding-left: 10px;
+}
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
